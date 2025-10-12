@@ -112,7 +112,7 @@ behaviors {
 //                    |     | SPC |LALT |   | ENT | RALT |  -  |
                         bindings = <
    &kp TAB   &kp Q   &kp W          &kp E          &kp R          &kp T    &kp Y    &kp U           &kp I          &kp O          &kp P    &kp BSPC
-   &td_copy  &kp A   &bhml LGUI S   &bhml LSHIFT D &bhml LCTRL F  &kp G    &kp H    &bhmr LCTRL J   &bhmr RSHIFT K &bhmr RALT L   &td_s0   &kp SQT
+   &td_copy  &kp A   &bhml LGUI S   &bhml LSHIFT D &bhml LCTRL F  &kp G    &kp H    &bhmr LCTRL J   &bhmr RSHIFT K &bhmr RALT L   &kp SEMI   &kp SQT
    &kp LCTRL &kp Z   &kp X          &kp C          &kp V          &lt 2 B  &kp N    &kp M           &kp COMMA      &kp DOT        &kp FSLH &lt 2 ESC
                                     &kp LGUI       &lt 1 SPACE    &kp LALT &kp RET &lt 1 RALT  &trans  
                         >;
@@ -140,7 +140,7 @@ behaviors {
                         bindings = <
    &kp  TAB  &kp EXCL      &kp AT    &kp HASH   &kp DLLR   &kp PRCNT   &kp CARET &kp AMPS  &kp ASTRK &kp LPAR &kp RPAR &kp BSPC
    &kp LSHFT &kp PG_UP     &kp PG_DN &trans     &trans     &trans      &kp MINUS &kp EQUAL &kp LBKT  &kp RBKT &kp BSLH &kp GRAVE
-   &kp LCTRL &kp LA(LEFT)  &bt BT_CLR &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2      &kp UNDER &kp PLUS  &kp LBRC  &kp RBRC &kp PIPE &kp TILDE
+   &kp LCTRL &kp LA(LEFT)  &trans    &trans     &trans     &trans         &kp UNDER &kp PLUS  &kp LBRC  &kp RBRC &kp PIPE &kp TILDE
                            &trans    &kp SPACE  &kp RET    &trans      &kp RALT  &trans
                         >;
                 };
